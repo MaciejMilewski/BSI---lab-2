@@ -1,2 +1,2 @@
-# BSI---lab-2
+# BSI laboratorium 2
 Kalkulator liczący reliability 
