@@ -21,8 +21,20 @@ Reliability of D = 0.85
     |                   |
     |                   |
     --------- D ---------
+    
+Autor: Michał Degowski
+Źródło problemu: systemreliabilityproblem1.pdf/Problem 38
 """
 
+
+def problem():
+    a_file = open("zad2.txt")
+    lines = a_file.readlines()
+    for line in lines:
+        line = line.rstrip("\n")
+        print(line)
+    print(" ")
+    a_file.close()
 
 def find_system_reliability():
     time = input("Podaj czas: ")

@@ -20,9 +20,9 @@ print(menu())
 while True:
     operacja = input("Co wybierzesz? ")
     if operacja == "1":
-        print(":::Wybrałeś zadanie 1:::\n"), zad1.find_reliability()
+        print(":::Wybrałeś zadanie 1:::\n"), zad1.problem(), zad1.find_reliability()
     elif operacja == "2":
-        print(":::Wybrałeś zadnie 2:::\n"), zad2.find_system_reliability()
+        print(":::Wybrałeś zadnie 2:::\n"), zad2.problem(), zad2.find_system_reliability()
     elif operacja == "3":
         print(":::Wybrałeś zadanie 3:::\n")
     elif operacja == "4":
