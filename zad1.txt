@@ -1,0 +1,4 @@
+There are two components that are identical in a parallel configuration where the
+second unit is in standby and will be activated only upon failure of the primary unit. The
+switching to the backup unit is considered certain. The failure rate for each component is .....
+failures/hour. What is the reliability for ..... hours?

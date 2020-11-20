@@ -1,0 +1,6 @@
+What is this system's reliability at ..... hours?
+Component failure data is :
+Failure rate of A = ..... failures/hr
+Reliability of B = .....
+MTTF of C = ..... hours
+Reliability of D = .....
