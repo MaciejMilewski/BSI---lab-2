@@ -1,5 +1,7 @@
 import zad1
 import zad2
+import zad3
+import zad4
 
 print("....:::::KALKULATOR RELIABILITY::::....\n")
 
@@ -24,9 +26,9 @@ while True:
     elif operacja == "2":
         print(":::Wybrałeś zadnie 2:::\n"), zad2.problem(), zad2.find_system_reliability()
     elif operacja == "3":
-        print(":::Wybrałeś zadanie 3:::\n")
+        print(":::Wybrałeś zadanie 3:::\n"), zad3.problem(), zad3.find_pc_reliability()
     elif operacja == "4":
-        print(":::Wybrałeś zadanie 4:::\n")
+        print(":::Wybrałeś zadanie 4:::\n"), zad4.problem(), zad4.find_system_reliability()
     elif operacja == "5":
         print(":::Wybrałeś zadanie 5:::\n")
     elif operacja == "6":

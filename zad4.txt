@@ -1,0 +1,4 @@
+The primary unit has a failure rate of x failure/hour.
+The unit in standby has a failure rate of y failures/hour.
+If the reliability of the switch can be considered to be 1 (perfect).
+What is the reliability for t hours?
