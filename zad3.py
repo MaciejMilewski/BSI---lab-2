@@ -4,7 +4,7 @@ What is the probability of the computer operating successfully
 (with at least one disk drive).
 
 Autor: Maciej Milewski
-Źródło problemu: systemreliabilityproblem1.pdf/Problem 3
+Źródło problemu: systemreliabilityproblem1.pdf/Problem 4
 """
 
 def problem():

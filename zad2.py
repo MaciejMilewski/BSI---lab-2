@@ -23,7 +23,7 @@ Reliability of D = 0.85
     --------- D ---------
     
 Autor: Michał Degowski
-Źródło problemu: systemreliabilityproblem1.pdf/Problem 38
+Źródło problemu: systemreliabilityproblem1.pdf/Performance check 38
 """
 
 

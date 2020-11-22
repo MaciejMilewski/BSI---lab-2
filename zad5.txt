@@ -1,0 +1,3 @@
+A satellite has two redundant control systems, each has a failure rate = x failures/hour.
+If one of the systems fails, the failure rate for the remaining system increases to y failures/hour.
+What is the reliability of the redundant control systems at t hours?
