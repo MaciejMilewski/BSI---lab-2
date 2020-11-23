@@ -23,7 +23,7 @@ Reliability of D = 0.85
     --------- D ---------
     
 Autor: Michał Degowski
-Źródło problemu: systemreliabilityproblem1.pdf/Problem 38
+Źródło problemu: systemreliabilityproblem1.pdf/Performance check 38
 """
 
 
@@ -37,13 +37,14 @@ def problem():
     a_file.close()
 
 def find_system_reliability():
-    time = input("Podaj czas: ")
+    time = input("Podaj czas pracy w godzinach: ")
     failure_rate_A = input("Podaj wskaźnik awaryjności (Failure rate): ")
     reliability_B = input("Podaj niezawodność (Reliability): ")
-    MTTF_C = input("Podaj średni czas do wystąpienia awarii (MTTF): ")
+    mttf_C = input("Podaj średni czas do wystąpienia awarii (MTTF): ")
     reliability_D = input("Podaj niezawodność (Reliability): ")
+
     reliability_A = (e ** (-(float(failure_rate_A) * int(time))))
-    reliability_C = (e ** (-(int(time) / int(MTTF_C))))
+    reliability_C = (e ** (-(int(time) / int(mttf_C))))
     reliability_S = (1 - (1 - float(reliability_A)) * (1 - float(reliability_B)) * (1 - float(reliability_C))
                      * (1 - float(reliability_D)))
     return print("System reliability: ", round(reliability_S, 3))

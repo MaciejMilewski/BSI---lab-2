@@ -23,6 +23,7 @@ def problem():
 
 def find_reliability():
     failure_rate = input("Podaj wskaźnik awaryjności (Failure rate): ")
-    time = input("Podaj czas: ")
+    time = input("Podaj czas pracy w godzinach: ")
+
     reliability = (e ** (-(float(failure_rate) * int(time)))) * (1 + (float(failure_rate) * int(time)))
     return print("Reliability: ", round(reliability, 3))
