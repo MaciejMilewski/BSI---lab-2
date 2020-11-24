@@ -7,6 +7,12 @@ The unit in standby has a failure rate of y failures/hour.
 If the reliability of the switch can be considered to be 1 (perfect).
 What is the reliability for t hours?
 
+primary_failure_rate = 0.001
+standby_failure_rate = 0.002
+time = 200
+
+Solution: 0.967
+
 Autor: Maciej Milewski
 Źródło problemu: systemreliabilityproblem1.pdf/Problem 8
 """

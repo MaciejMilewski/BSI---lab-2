@@ -7,6 +7,12 @@ A satellite has two redundant control systems, each has a failure rate = x failu
 If one of the systems fails, the failure rate for the remaining system increases to y failures/hour.
 What is the reliability of the redundant control systems at t hours?
 
+system_with_2_units_fr = 0.000001
+system_with_1_unit_fr = 0.00002
+time = 175000
+
+Solution = 0.78
+
 Autor: Maciej Milewski
 Źródło problemu: systemreliabilityproblem1.pdf/Performance check 41
 """
@@ -15,7 +21,7 @@ def reliability(first_fr, second_fr, time):
     return( e_power(first_fr, time) + (float(first_fr)/(float(first_fr) - float(second_fr))) * (e_power(second_fr, time) - e_power(first_fr, time)))
 
 def is_function_input_in_domain(system_with_2_units_fr, system_with_1_unit_fr):
-    if 2.0*float(primary_failure_rate) - float(standby_failure_rate) == 0.0:
+    if 2.0*float(system_with_2_units_fr) - float(system_with_1_unit_fr) == 0.0:
         return False
     else:
         return True

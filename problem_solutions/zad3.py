@@ -5,6 +5,14 @@ A home computer has two 3.5 inch disk drives, hard drive, cpu, keyboard and moni
 What is the probability of the computer operating successfully
 (with at least one disk drive)?
 
+disk_drive_reliability = 0.962
+hard_drive_reliability = 0.967
+cpu_reliability = 0.996
+keyboard_reliability = 0.99
+monitor_reliability = 0.99
+
+Solution: 0.943
+
 Autor: Maciej Milewski
 Źródło problemu: systemreliabilityproblem1.pdf/Problem 4
 """
