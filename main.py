@@ -1,8 +1,10 @@
-import zad1
-import zad2
-import zad3
-import zad4
-import zad5
+import problem_solutions.zad1 as zad1
+import problem_solutions.zad2 as zad2
+import problem_solutions.zad3 as zad3
+import problem_solutions.zad4 as zad4
+import problem_solutions.zad5 as zad5
+
+from utils.console_utility import problem_description
 
 print("....:::::KALKULATOR RELIABILITY::::....\n")
 
@@ -23,15 +25,15 @@ print(menu())
 while True:
     operacja = input("Co wybierzesz? ")
     if operacja == "1":
-        print(":::Wybrałeś zadanie 1:::\n"), zad1.problem(), zad1.find_reliability()
+        print(":::Wybrałeś zadanie 1:::\n"),  problem_description("./problem_descriptions/zad1.txt"), zad1.find_reliability()
     elif operacja == "2":
-        print(":::Wybrałeś zadnie 2:::\n"), zad2.problem(), zad2.find_system_reliability()
+        print(":::Wybrałeś zadnie 2:::\n"),  problem_description("./problem_descriptions/zad2.txt"), zad2.find_system_reliability()
     elif operacja == "3":
-        print(":::Wybrałeś zadanie 3:::\n"), zad3.problem(), zad3.find_pc_reliability()
+        print(":::Wybrałeś zadanie 3:::\n"),  problem_description("./problem_descriptions/zad3.txt"), zad3.find_pc_reliability()
     elif operacja == "4":
-        print(":::Wybrałeś zadanie 4:::\n"), zad4.problem(), zad4.find_system_reliability()
+        print(":::Wybrałeś zadanie 4:::\n"),  problem_description("./problem_descriptions/zad4.txt"), zad4.find_system_reliability()
     elif operacja == "5":
-        print(":::Wybrałeś zadanie 5:::\n"), zad5.problem(), zad5.find_satelite_reliability()
+        print(":::Wybrałeś zadanie 5:::\n"), problem_description("./problem_descriptions/zad5.txt"), zad5.find_satelite_reliability()
     elif operacja == "6":
         break
     elif operacja == "0":

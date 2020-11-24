@@ -1,0 +1,3 @@
+A home computer has two 3.5 inch disk drives, hard drive, cpu, keyboard and monitor.
+What is the probability of the computer operating successfully
+(with at least one disk drive)?
